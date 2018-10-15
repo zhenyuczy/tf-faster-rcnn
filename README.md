@@ -198,10 +198,10 @@ obj_struct['bbox'] = [float(bbox.find('xmin').text),
 	rm data/cache/voc_2007_trainval_gt_roidb.pkl
 	rm data/VOCdevkit2007/VOC2007/ImageSets/Main/test.txt_annots.pkl
 	```
-3. Update parameters
-  3.1. Modify stepsize and iteations in `experiments/scripts/train_faster_rcnn.sh`.</br>
-  3.2. Modify the parameters of the model in `experiments/cfgs`. </br>
-  3.3. Modify the training and test parameters in `lib/model/config.py`.</br>
+3. Update parameters</br>
+  3.1 Modify stepsize and iteations in `experiments/scripts/train_faster_rcnn.sh`.</br>
+  3.2 Modify the parameters of the model in `experiments/cfgs`. </br>
+  3.3 Modify the training and test parameters in `lib/model/config.py`.</br>
 4. Training
 	```linux
 	./experiments/scripts/train_faster_rcnn.sh 0 pascal_voc res101
