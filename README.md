@@ -1,4 +1,4 @@
-
+## 中文请参考我的[CSDN博客](https://blog.csdn.net/chenzhenyu123456/article/details/81567789)
 ## 1. Introduction
 This is a note about how to use tf-faster-rcnn to train your own model on VOC or other dataset. </br>
 My machine and library version: GTX 1060, miniconda 4.5.4, CUDA 9.0, CUDNN 7.1.4, tensorflow-gpu 1.8.0.
